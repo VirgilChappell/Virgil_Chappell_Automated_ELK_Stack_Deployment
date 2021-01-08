@@ -102,11 +102,11 @@ SSH into the control node and follow the steps below:
 [elkservers]
 10.1.0.4 ansible_python_interpreter=/usr/bin/python3
 
-_Which URL do you navigate to in order to check that the ELK server is running? http://20.55.242.194:5601/app/kibana
+_Which URL do you navigate to in order to check that the ELK server is running? 20.55.242.194:5601/app/kibana
 
 _Provide the specific commands the user will need to run to download the playbook, update the files, etc._
 Filebeat:
-curl https://gist.githubusercontent.com/slape/5cc350109583af6cbe577bbcc0710c93/raw/eca603b72586fbe148c11f9c87bf96a63cb25760/Filebeat > /etc/ansible/files/filebeat-config.yml
+curl http://gist.githubusercontent.com/slape/5cc350109583af6cbe577bbcc0710c93/raw/eca603b72586fbe148c11f9c87bf96a63cb25760/Filebeat > /etc/ansible/files/filebeat-config.yml
 cd /etc/filebeat/filebeat-config.yml
 nano filebeat-config.nano
 Scroll to line #1106 and replace the IP address with the IP address of your ELK machine.
