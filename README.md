@@ -1,4 +1,4 @@
-# Virgil_Chappell_Project_13
+# Virgil_Chappell_Automated_ELK_Stack_Deployment
  Elk Stack Project
 ## Automated ELK Stack Deployment
 
